@@ -4,14 +4,34 @@
         <meta charaset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="../odin-recipes/recipes/potato.html">potato</a></li>
-            <li><a href="../odin-recipes/recipes/italian_meat.html">Italian Meat Sauce</a></li>
-            <li><a href="../odin-recipes/recipes/bean_salad.html">Bean Salad</a></li>
-        </ul>
+        <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+            <source src="./videos/160402_48_DroppingRaspberries_1080p_preview.mp4" type="video/mp4">
+        </video>
+        <h1> The Odin Recipes</h1>
+        <div id="recipes">
+            <div class="recipe-items">
+                <img class="menu-image" src="./images/potato-chips.webp" alt="Potato chips">
+                <h4>Potato Chips</h4>
+                <p>Homemade potato chips are fun and easy. They won't last long! A food processor with a slicing attachment is very helpful for slicing the potatoes.</p>
+                <a href="./recipes/potato.html">Learn to Cook</a>
+            </div>
+            <div class="recipe-items">
+                <img class="menu-image" src="./images/bean-salad.webp" alt="Bean salad">
+                <h4>Bean Salad</h4>
+                <p>This tasty three bean salad is great for buffets, summer picnics, and cookouts. It tastes best when chilled for at least 12 hours.</p>
+                <a href="./recipes/bean_salad.html">Learn to Cook</a>
+            </div>
+            <div class="recipe-items">
+                <img class="menu-image" src="./images/italian-meat.webp" alt="Italian meat">
+                <h4>Italian Meat</h4>
+                <p>This Italian meat sauce with mushrooms is robust and hearty. Serve over your favorite pasta with Parmesan cheese if desired.</p>
+                <a href="./recipes/italian_meat.html">Learn to Cook</a>
+            </div>
+        </div>
+        <button class="button-top"><a href="#TOP">GO TOP</a></button>
         
     </body>
 </html>
