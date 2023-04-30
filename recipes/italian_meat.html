@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Potato Chips</title>
 </head>
 <body>
+    <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+        <source src="../videos/160402_48_DroppingRaspberries_1080p_preview.mp4" type="video/mp4">
+    </video>
     <h1>Old Italian Meat Sauce</h1>
-    <img src="../images/italian-meat.webp" alt="Old Italian Meat Sauce">
-    <h3>Description</h3>
+    <div class="content-container">
+    <div class="content-left">
+    <img style="width: 100%;" src="../images/italian-meat.webp" alt="Old Italian Meat Sauce">
+    <h4>Description</h4>
     <p>This Italian meat sauce with mushrooms is robust and hearty. Serve over your favorite pasta with Parmesan cheese if desired.</p>
-    <h3>Ingridients</h3>
+    <h4>Ingridients</h4>
     <ul>
         <li>2 pounds lean ground beef</li>
         <li>1 pound ground pork</li>
@@ -27,6 +32,8 @@
         <li>3 (29 ounce) cans tomato sauce</li>
         <li>1 (6 ounce) can tomato paste</li>
     </ul>
+    </div>
+    <div class="content-right">
     <h1>Steps</h1>
     <ol>
         <li>Heat a large skillet over medium heat. Cook beef and pork in the hot skillet until crumbly and no longer pink, 5 to 7 minutes. Remove from the heat and set aside.</li>
@@ -35,5 +42,15 @@
         <li>Add browned meat, tomato sauce, and tomato paste to mushroom mixture. Reduce the heat and simmer for 1 hour. </li>
         <li>Pour in remaining 2 cups wine. Continue simmering for 2 to 3 hours, stirring occasionally; serve. </li>
     </ol>
+    </div>
+    </div>
+    <div id="footer">
+        <h4>Our Menu</h4>
+        <button class="button-top"><a href="../index.html">Home</a></button>
+        <button class="button-top"><a href="../recipes/bean_salad.html">Bean Salad</a></button>
+        <button class="button-top"><a href="../recipes/potato.html">Potato Chips</a></button>
+        <button class="button-top"><a href="#TOP">GO TOP</a></button>
+        <p>&#169 2023 Designed by Ntilanima. Inspired by Odin Project.</p>
+    </div>
 </body>
 </html>

@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Potato Chips</title>
 </head>
 <body>
+    <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+        <source src="../videos/160402_48_DroppingRaspberries_1080p_preview.mp4" type="video/mp4">
+    </video>
     <h1>Potato Chips</h1>
-    <img src="../images/potato-chips.webp" alt="Potato chips">
-    <h3>Description</h3>
+    <div class="content-container">
+    <div class="content-left">
+    <img style="width: 100%;" src="../images/potato-chips.webp" alt="Potato chips">
+    <h4>Description</h4>
     <p>Homemade potato chips are fun and easy. Guaranteed they won't last long! A food processor with a slicing attachment is very helpful for slicing the potatoes. Experiment with the thickness; you may like them thicker or thinner. I like to use olive oil for frying, but you can use safflower, corn, or peanut oil as well as vegetable oil.</p>
-    <h3>Ingridients</h3>
+    <h4>Ingridients</h4>
     <ul>
         <li>4 medium potatoes, peeled and sliced paper-thin</li>
         <li>3 tablespoons salt, plus more to taste</li>
         <li>1 quart oil for deep frying</li>
     </ul>
+    </div>
+
+    <div class="content-right">
     <h1>Steps</h1>
     <ol>
         <li>Transfer potato slices to a large bowl of cold water as you slice them.</li>
@@ -27,5 +35,15 @@
         <li>Working in small batches, fry potato slices until golden. Remove with a slotted spoon and drain on paper towels. Continue until all of the slices are fried.</li>
         <li>Season potato chips with additional salt if desired.</li>
     </ol>
+    </div>
+    </div>
+    <div id="footer">
+        <h4>Our Menu</h4>
+        <button class="button-top"><a href="../index.html">Home</a></button>
+        <button class="button-top"><a href="../recipes/bean_salad.html">Bean Salad</a></button>
+        <button class="button-top"><a href="../recipes/italian_meat.html">POld Italian Meat</a></button>
+        <button class="button-top"><a href="#TOP">GO TOP</a></button>
+        <p>&#169 2023 Designed by Ntilanima. Inspired by Odin Project.</p>
+    </div>
 </body>
 </html>
