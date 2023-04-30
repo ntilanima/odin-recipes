@@ -94,7 +94,7 @@ a {
   .content-left {
     display: flex 1;
     background-color: rgb(250, 235, 215, .4);
-    max-width: 40%;
+    max-width: 45%;
     font-size: 22px;
     font-weight: 900;
     padding: 5px;
