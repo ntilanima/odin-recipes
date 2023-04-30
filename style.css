@@ -15,7 +15,8 @@ h4 {
     background-color: rgb(253, 253, 253, .4);
     color: green;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
+    min-width: fit-content;
 }
 
 p {
