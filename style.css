@@ -103,7 +103,7 @@ a {
   
   .content-right {
     display: flex 2;
-    background-color: rgb(250, 235, 215, .4);
+    background-color: rgb(250, 235, 215, .3);
     font-size: 22px;
     font-weight: bold;
     padding: 5px;
